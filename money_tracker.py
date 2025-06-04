@@ -8,7 +8,7 @@ while True:
                 if choice == "1":
                     while True:
                         try:
-                            x = float(int(input("Sum?: ")))
+                            x = float(input("Sum?: "))
                             n = n + x
                             break
                         except ValueError:
@@ -16,7 +16,7 @@ while True:
                 elif choice == "2":
                     while True:
                         try:
-                            x = float(int(input("Sum?: ")))
+                            x = float(input("Sum?: "))
                             n = n - x
                             break
                         except ValueError:
